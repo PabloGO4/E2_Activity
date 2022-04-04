@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,7 +16,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void OnClickBtn (View view){
-        Intent i = new Intent(this,pan);
-        Switch
+        Intent i = new Intent(this,VisualizarColor.class);
+        switch (view.getId()){
+            case R.id.Ptn1:
+
+                break;
+            case R.id.Ptn2:
+
+                break;
+            case R.id.Ptn3:
+
+                break;
+            case R.id.Ptn4:
+
+                break;
+        }
     }
 }

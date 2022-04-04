@@ -25,24 +25,28 @@
 
         >
         <Button
+            android:id="@+id/Ptn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pantalla 1"
             android:onClick="onClickBtn"
             />
         <Button
+            android:id="@+id/Ptn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pantalla 2"
             android:onClick="onClickBtn"
             />
         <Button
+            android:id="@+id/Ptn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pantalla 3"
             android:onClick="onClickBtn"
             />
         <Button
+            android:id="@+id/Ptn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pantalla 4"
